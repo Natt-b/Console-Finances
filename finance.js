@@ -94,10 +94,11 @@ var total = 0;
 var change = 0;
 var average;
 
-for (var i = 0; i < finances.length; i++) {
+for (var i = 0; i < finances.length; i++) 
+ 
+total = total + finances[i][1];
 
-  
-}
+
 analysis =
 'Financial Analysis' +
 '\n'+
