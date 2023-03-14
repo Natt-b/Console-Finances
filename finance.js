@@ -97,7 +97,7 @@ var average;
 for (var i = 0; i < finances.length; i++) 
  
 total = total + finances[i][1];
-
+average = average + months;
 
 analysis =
 'Financial Analysis' +
